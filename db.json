@@ -1,0 +1,64 @@
+{
+  "user": [
+    {
+      "firstname": "admin",
+      "lastname": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "mobilenumber": 8754208667,
+      "role": "",
+      "isactive": true,
+      "id": "admin"
+    },
+    {
+      "firstname": "ajai",
+      "lastname": "kumar",
+      "email": "ajaisparrow874@gmail.com",
+      "password": "xnvkfvfn",
+      "mobilenumber": 8754208667,
+      "role": "",
+      "isactive": false,
+      "id": 1
+    },
+    {
+      "firstname": "ajai",
+      "lastname": "kumar",
+      "email": "ajaisparrow874@gmail.com",
+      "password": "xnvkfvfn",
+      "mobilenumber": 8754208667,
+      "role": "",
+      "isactive": false,
+      "id": 1
+    },
+    {
+      "firstname": "mani",
+      "lastname": "kandan",
+      "email": "mani@gamil.com",
+      "password": "mani",
+      "mobilenumber": 79897789789,
+      "role": "",
+      "isactive": false,
+      "id": "5"
+    },
+    {
+      "firstname": "muthu",
+      "lastname": "kumar",
+      "email": "muthu@gmail.com",
+      "password": "muthu",
+      "mobilenumber": 78788898888,
+      "role": "",
+      "isactive": false,
+      "id": "1"
+    },
+    {
+      "firstname": "muthu",
+      "lastname": "kumar",
+      "email": "muthu@gmail.com",
+      "password": "ajaika",
+      "mobilenumber": 7878888786,
+      "role": "",
+      "isactive": false,
+      "id": "XOyi1SL"
+    }
+  ]
+}

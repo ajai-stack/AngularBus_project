@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600;700&display=swap');
+
+
+#make{
+    position: relative;
+    color: #d4d1d2;
+    font-size: 120px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-left: 150px;
+}
+
+#cane h1{
+    position: relative;
+    color: #d4d1d2;
+    font-size: 120px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+}
+#cane h2{
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+#cane b{
+  font-size: 25px;
+  color: rgb(46, 250, 5);
+}
+#cane select{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    text-indent: 20px;
+
+
+}
+#cane input{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 20px;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#cane button{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 15px;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+/* about */
+.about{
+    color: #d4d1d2;
+    font-size: 120px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: -40px 0;
+}
+
+.card{
+    margin-top: 100px;
+    margin-left: 50px;
+    border: none;
+}
+.card img {
+    width: 400px; 
+    margin-top: 70px;
+}
+.card-body h5{
+    font-size: 35px;
+    color: rgb(3, 247, 104);
+}
+
+.col-md-4 img .has-transition {
+        transition: transform 150ms ease-in-out;
+}
+.col-md-4 img:hover{
+    transform: scale(1.4);
+}
+
+
+
+
+/* Amenities */
+#name{
+    margin-top: 200px;
+    background-color: rgb(243, 243, 247);
+    height: 700px;
+}
+#name h2{
+    color: #d4d1d2;
+    font-size: 100px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: -40px 0;
+    margin-top: 20px;
+   
+}
+#name h1{
+    font-size: 35px;
+    color: rgb(3, 247, 104);
+    
+}
+#name p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+#find{
+    margin-top: 100px;
+}
+#find .col{
+    border: 1px solid black;
+   padding-top: 35px;
+   border-radius: 10px;
+   height: 140px;
+}
+#find .col h6{
+    margin-top: 10px;
+}
+
+#find .col:hover{
+    background-color: rgb(117, 197, 11);
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px)
+}
+
+/* Services */
+
+
+.section{
+    color: #d4d1d2;
+    font-size: 120px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: -40px 0;
+    margin-top: 100px;
+
+}
+.section-text{
+    margin-top: 50px;
+    font-size:18px;
+    font-family: initial;
+}
+.service-inner{
+    margin-top:50px;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(128, 125, 125);
+    height: 290px;
+    background-color: rgb(55, 192, 107);
+}
+.service-inner:hover{
+    background-color: rgb(12, 11, 12);
+    color:rgb(253, 246, 246);
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px)
+}
+.section-bind{
+    font-size: 35px;
+    color: rgb(3, 247, 104);
+    
+}
+.service-inner img{
+  margin-top: 20px;
+}
+.service-inner h4{
+    font-size: 27px;
+    font-family:cursive;
+}
+.service-inner p{
+    margin-top: 20px;
+    color: antiquewhite;
+}
+
+/* Routes */
+
+.route{
+    color: #dddcdd;
+    font-size: 140px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: -40px 0;
+    margin-top: 30px;
+}
+.routes-title{
+        font-family: cursive;
+        font-size: 40px;
+        color: rgb(3, 247, 104);
+        
+}
+.fun{
+    margin-top: 50px;
+}
+.fun h2{
+    font-family:cursive;
+    margin-top: 10px;
+    
+}
+.fun img{
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(102, 100, 100);
+    
+}
+.fun img:hover{
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px)
+}
+
+.fun1{
+    margin-top: 120px;
+    opacity: 0.7;
+    
+}
+#route1{
+    background-color: rgb(243, 243, 247);
+    margin-top: 200px;
+}
+
+/* covid 19 */
+
+#covid h2{
+    color: #dddcdd;
+    font-size: 150px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: -40px 0;
+    margin-top: 30px;
+}
+#covid h3{
+      font-family: cursive;
+    font-size: 30px;
+    color: rgb(3, 247, 104);
+}
+#covid p{
+    margin-top: 50px;
+}
+
+#covid1 .col{
+    
+    margin-left: 20px;
+    margin-top: 70px;
+    box-shadow: 0 0.5rem 1rem rgb(102, 100, 100);   
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer-section{
+    margin-top: 80px;
+    background-color: rgb(91, 248, 91);
+}
+#foot{
+    margin-top: 35px;
+}
+#foot1{
+    margin-top: 35px;
+   
+}
+#foot2{
+    margin-top: 35px;
+    
+}
+#foot1 a{
+    text-decoration: none;
+}
+#foot2 a{
+    text-decoration: none;
+    
+}
+#foot3{
+    margin-top: 35px;
+}
+#foot4{
+    margin-top: 35px;
+}
+.mine{
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 0 0.5rem 1rem rgb(138, 135, 135);
+    text-decoration-line:overline
+}
+
+
+
+
+
+
+
+

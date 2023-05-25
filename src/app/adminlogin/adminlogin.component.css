@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(90deg, rgb(153, 170, 180) 0%, rgb(207, 209, 208) 50%);
+    margin-top: 8px;
+    height: 800px;
+  }
+  h1{
+    font-family:cursive;
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgb(255, 251, 253);
+  }
+  
+  form{
+    background: linear-gradient(90deg, rgb(104, 154, 179) 0%, rgb(253, 146, 103) 50%);
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 400px ;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 3rem rgb(53, 52, 52);
+    position: absolute;
+    width: 40%;
+  }
+  input{ 
+    width: 65%;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+  }
+  input[type="submit"]{
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  input[type="submit"]:hover{
+    background-color: rgb(56, 69, 82);
+    color: white;
+  }
+  p{
+    color: rgb(240, 16, 16);
+    margin-right: 180px;
+    
+  }
+  .but{
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    margin-left: 20px;
+    width: 120px;
+    height: 50px;
+  }
+  .but:hover{
+    background-color: rgb(56, 69, 82);
+    color: white;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    
+           form{
+            margin-left: 70px; 
+            width: 70%;
+          
+           }
+  }

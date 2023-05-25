@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600;700&display=swap');
+
+#man b{
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0 0.5rem 1rem rgb(138, 135, 135);
+   
+}
+#man b:hover{
+    background-color: rgb(238, 239, 240);
+    border-radius: 10px;
+}
+
+nav{
+    box-shadow: 0 0.5rem 1rem rgb(102, 100, 100);
+   
+}
+.collapse{
+    margin-left: 400px;
+    text-indent: 20px;
+   
+}
+.collapse .nav-item{
+ font-family:sans-serif;
+ font-size: 25px;   
+ font-weight: 700;
+}
+.collapse .nav-item:hover{
+    background-color: rgb(182, 247, 86) ;
+    border-radius: 10px;
+}

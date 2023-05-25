@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(234, 235, 233);
+    height: 550px;
+    margin-top: 15px;
+}
+#bus {
+    margin-top: 60px;
+    background-color: rgb(233, 236, 238);
+    border: none;
+}
+#none{
+    background-color: rgb(229, 229, 231);
+    
+    color: rgb(36, 45, 51);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+#bus img{
+    width: 550px;
+}
+#bus2 {
+    margin-left: 10px;
+}
+#bus2 p{
+    font-weight: 500;
+}
+#bus2 .col h3{
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0.5rem 1rem rgb(138, 135, 135);
+
+}
+#bus3{
+ margin-top: 50px;
+}
+
+#bus3 h3{
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0.5rem 1rem rgb(138, 135, 135);
+
+
+}
+#bus3 p{
+    font-weight: 500;
+}
+
+
+
+
+/* footer */
+
+.footer-section{
+    margin-top: 80px;
+    background-color: rgb(91, 248, 91);
+    
+
+}
+#foot{
+    margin-top: 35px;
+}
+#foot1{
+    margin-top: 35px;
+}
+#foot2{
+    margin-top: 35px;
+}
+#foot3{
+    margin-top: 35px;
+}
+#foot4{
+    margin-top: 35px;
+}
+.mine{
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 0 0.5rem 1rem rgb(138, 135, 135);
+    text-decoration-line:overline
+}
+
+
+
+
+
+
+
+

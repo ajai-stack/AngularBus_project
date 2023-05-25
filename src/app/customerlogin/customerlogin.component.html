@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer login</title>
+</head>
+<body>  
+
+<form class="row g-3" class="text-center" [formGroup]="ngForm" (ngSubmit)= "onClickSubmit(ngForm.value)">
+    <h1>customer login</h1>
+    <div class="col-auto">
+        <input type="text" name="firstname" placeholder="firstname" formControlName="firstname" >
+        <p *ngIf="submit && fn['firstname'].errors">Firstname is required*</p>
+    </div>
+    <div class="col-auto">
+        <input type="text" name="lastname" placeholder="lastname" formControlName="lastname"  >
+        <p *ngIf="submit && fn['lastname'].errors">Lastname is required*</p>
+    </div>
+    <div class="col-auto">
+        <input type="text" name="email" placeholder="email" formControlName="email"  >
+        <p *ngIf="submit && fn['email'].errors">email is required*</p>
+    </div>
+    <div class="col-auto">
+        <input type="password" name="password" placeholder="password" formControlName="password"  >
+        <p *ngIf="submit && fn['password'].errors">password is required*</p>
+    </div>
+    <div class="col-auto">
+        <input type="number" name="mobilenumber" placeholder="mobilenumber" formControlName="mobilenumber"  >
+        <p *ngIf="submit && fn['mobilenumber'].errors">mobilenumber is required*</p>
+    </div>
+    <input type="submit" value="Submit">
+   
+  </form>
+
+
+  
+
+</body>
+</html>

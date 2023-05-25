@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adminlogin</title>
+</head>
+<body>
+
+<form class="row g-3" class="text-center" [formGroup]="loginform" (ngSubmit)= "proceedlogin()">
+    <h1>Admin login </h1>
+    <div class="col-auto">
+        <input type="text" name="Username" placeholder="Username" formControlName="Username" >
+        <p *ngIf="submit && fn['Username'].errors">Username is required*</p>
+    </div>
+    <div class="col-auto">
+        <input type="password" name="password" placeholder="password" formControlName="password"  >
+        <p *ngIf="submit && fn['password'].errors">password is required*</p>
+    </div>
+    
+    <input type="submit" value="Submit">
+    <button class="but" routerLink="/customerlogin">Back</button>
+   
+  </form>
+
+
+  
+
+</body>
+</html>
